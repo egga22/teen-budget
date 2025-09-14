@@ -1,0 +1,47 @@
+body[data-theme='dark'] {
+  background: #111;
+  color: #eee;
+}
+
+body[data-theme='light'] {
+  background: #fdfdfd;
+  color: #111;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 0.6rem 1rem;
+  margin: 0.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login, .dashboard {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.goals .goal {
+  margin: 0.5rem 0;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions li {
+  margin: 0.2rem 0;
+}
+
+.budgets .budget {
+  margin: 0.5rem 0;
+}
